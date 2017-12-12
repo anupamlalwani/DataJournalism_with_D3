@@ -162,7 +162,7 @@ d3.csv("mydata.csv", function(err, mydata) {
 						// })
 					 .attr("fill", "skyblue")
 					 .attr("opacity", 0.45)
-						.on("click", function(data) {
+						.on("mouseover", function(data) {
 							toolTip.show(data);
 						})
 						// onmouseout event
